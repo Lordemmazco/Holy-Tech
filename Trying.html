@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Holy-City Login</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
     * {
   box-sizing: border-box;
@@ -111,13 +112,17 @@ button:hover {
   background: #00c8e0;
   transform: scale(1.05);
     }
-    
+    i{
+      display: flex;
+      align-item: center;
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <form id="loginForm" novalidate>
       <h2>LOGIN Portal</h2>
+      <i class="fa-solid fa-lock"></i>
 
       <div class="input-group">
         <input type="email" id="email" required>
